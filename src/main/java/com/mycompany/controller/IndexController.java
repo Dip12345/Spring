@@ -48,12 +48,12 @@ public class IndexController {
         mv.addObject("courses",courses);
         return mv;
     }
-//    @RequestMapping(value = "/DeleteCourse", method = RequestMethod.GET)
-//    public ModelAndView deleteCourse(@RequestParam("cid") int courseid){
-//        courseService.delete(courseid);
-//    return new ModelAndView("redirect:DisplayCourse");
-//    
-//    
-//    }
+    @RequestMapping(value = "/DeleteCourse", method = RequestMethod.GET)
+    public ModelAndView deleteCourse(@RequestParam("cid") int courseid){
+        courseService.delete(courseid);
+    return new ModelAndView("redirect:DisplayCourse");
+    
+    
+    }
 }
 
