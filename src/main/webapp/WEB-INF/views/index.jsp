@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Dashboard Page</title>
+        <title>Index Page </title>
     </head>
     <body>
         <a href="AddCourse">Add Course</a>
